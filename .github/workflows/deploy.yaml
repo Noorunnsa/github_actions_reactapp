@@ -31,6 +31,6 @@ jobs:
           sudo docker build -t react-app .
           sudo docker stop react-app || true
           sudo docker rm react-app || true
-          sudo docker run -d -p 8000:3000 --name react-app react-app
+          sudo docker run -d -p 8000:80 --name react-app react-app
         EOF
 
