@@ -26,6 +26,8 @@ github_actions_reactapp/
 ├── package-lock.json
 └── test.txt                 # Test file (can be ignored or deleted)
 
+---
+
 ## 🌐 Application Overview
 
 - A **React frontend** app is built and served using **Nginx** inside a Docker container.
