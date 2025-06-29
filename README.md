@@ -26,4 +26,18 @@ github_actions_reactapp/
 ├── package-lock.json
 └── test.txt                 # Test file (can be ignored or deleted)
 
+---
 
+**## 🌐 Application Overview**
+
+- A **React frontend** app is built and served using **Nginx** inside a Docker container.
+- CI/CD pipeline is configured using **GitHub Actions** to automatically:
+  - Build the Docker image
+  - Copy files to EC2
+  - Build & run the container on the server
+- **Terraform** is used to create the required AWS infrastructure:
+  - EC2 instance
+  - Security group to allow traffic
+  - Key pair for SSH
+
+---
